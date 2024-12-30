@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import Image from "next/image";
 import { GameFlowStep1, GameFlowStep2, GameFlowStep3, GameFlowStep4 } from '@/assets';
 
@@ -30,10 +30,6 @@ const sections = [
 const GameFlow = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end end"]
-  });
 
   useEffect(() => {
     const handleScroll = () => {
