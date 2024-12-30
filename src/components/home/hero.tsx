@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="flex flex-col text-right items-center w-full max-w-full px-5 md:hidden">
          <div className="flex flex-col gap-4 w-full">
          <h1 className="text-5xl font-medium leading-tight mb-2">
-            <span>The <strong>SKY'S</strong></span><br />
+            <span>The <strong>SKY&apos;S</strong></span><br />
             <span>The <strong>LIMIT</strong></span>
           </h1>
           <p className="text-lg font-semibold mb-2">
@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-4 w-full max-w-[300px]">
             <a href="https://github.com" 
-              className="bg-[url('../assets/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-2xl font-bold shadow-md w-full text-center">
+              className="bg-[url('/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-2xl font-bold shadow-md w-full text-center">
               GITHUB
             </a>
             <a href="#play" 
@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
           <div className="flex flex-col justify-center items-end text-black z-10 p-16">
             <h1 className="text-8xl font-medium leading-tight">
-              <span>The <strong>SKY'S</strong></span><br />
+              <span>The <strong>SKY&apos;S</strong></span><br />
               <span>The <strong>LIMIT</strong></span>
             </h1>
             <p className="text-5xl font-semibold mb-8">
@@ -73,7 +73,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col gap-4 items-end w-full">
               <a href="https://github.com" 
-                className="bg-[url('../assets/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-[32px] font-bold shadow-md w-2/4 text-center">
+                className="bg-[url('/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-[32px] font-bold shadow-md w-2/4 text-center">
                 GITHUB
               </a>
               <a href="#play" 

@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  compiler: {
-    styledComponents: true,
-  },
   images: {
-    disableStaticImages: false,
+    unoptimized: false,
+    remotePatterns: [],
+    domains: [],
   },
   webpack(config) {
     config.module.rules.push({
@@ -12,14 +11,7 @@ const nextConfig = {
       type: 'asset/resource'
     });
     return config;
-  },
-  // Ignore TypeScript and ESLint errors during build
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  }
 };
 
-module.exports = nextConfig; 
+module.exports = nextConfig;

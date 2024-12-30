@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useRef } from "react";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { GameFlowStep1, GameFlowStep2, GameFlowStep3, GameFlowStep4 } from '@/assets';
 
