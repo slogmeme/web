@@ -21,12 +21,12 @@ const steps: Step[] = [
   {
     number: 3,
     title: "SWAP SOL for SLOG",
-    content: "Tap the swap icon in your phantom wallet and paste the $SIXR token address. Swap your $SOL for $SIXR."
+    content: "Tap the swap icon in your phantom wallet and paste the $SLOG token address. Swap your $SOL for $SLOG."
   }, 
   {
     number: 4,
     title: "DOWNLOAD TELEGRAM",
-    content: "Download the TG app on your phone and message @sixr_bot. Type  /start  then click “open web app.”"
+    content: "Download the TG app on your phone and message @slog_bot. Type  /start  then click “open web app.”"
   },
   {
     number: 5,
@@ -42,7 +42,7 @@ const HowToStart = () => {
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-[64px] font-extrabold text-black leading-tight mb-6">HOW TO START</h2>
           <p className="text-xl md:text-[40px] font-bold text-black leading-tight max-w-[80%] mx-auto">
-            Follow these easy steps to buy SIXR and own part of the growing SIXR universe.
+            Follow these easy steps to buy SLOG and own part of the growing SLOG universe.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 px-4 md:px-0">

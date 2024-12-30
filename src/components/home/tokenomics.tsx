@@ -11,7 +11,7 @@ const Tokenomics = () => {
           <div className="border-4 border-black overflow-hidden mb-6">
             <Image
               src={TeamImage}
-              alt="SIXR Team"
+              alt="SLOG Team"
               layout="responsive"
               width={500}
               height={500}

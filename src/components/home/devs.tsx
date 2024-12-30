@@ -27,7 +27,7 @@ const Devs = () => {
           {/* Text Content */}
           <div className="flex flex-col gap-2 text-black text-[20px] font-medium">
             <p>
-              Welcome! SIXR is a cricket inspired gaming ecosystem.
+              Welcome! SLOG is a cricket inspired gaming ecosystem.
             </p>
             <p>
               We are here for the fans and want to make this the best game to play ever!
@@ -36,7 +36,7 @@ const Devs = () => {
               Earn while enjoying and playing a fun game that over 2.5 BILLION people love.
             </p>
             <p>
-              Earn SIXR by bowling, batting and playing, trading in-game assets, buying and selling players and teams and participating in the ecosystem.
+              Earn SLOG by bowling, batting and playing, trading in-game assets, buying and selling players and teams and participating in the ecosystem.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ const Devs = () => {
           </div>
           <div className="flex flex-col gap-8 justify-normal">
             <p className="font-sans text-[40px] text-black font-medium">
-              Welcome! SIXR is a cricket inspired gaming ecosystem.
+              Welcome! SLOG is a cricket inspired gaming ecosystem.
             </p>
             <p className="font-sans text-[40px] text-black font-medium">
               We are here for the fans and want to make this the best game to play ever!
@@ -75,7 +75,7 @@ const Devs = () => {
               Earn while enjoying and playing a fun game that over 2.5 BILLION people love.
             </p>
             <p className="font-sans text-[40px] text-black font-medium">
-              Earn SIXR by bowling, batting and playing, trading in-game assets, buying and selling players and teams and participating in the ecosystem.
+              Earn SLOG by bowling, batting and playing, trading in-game assets, buying and selling players and teams and participating in the ecosystem.
             </p>
           </div>
         </div>
