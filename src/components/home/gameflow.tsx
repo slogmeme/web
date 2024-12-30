@@ -17,7 +17,7 @@ const sections = [
   },
   {
     title: "TRADE YOUR TEAM'S PLAYERS",
-    description: "Own them in-game to play/win or trade them for $SIXR! The more they play, The more valuable they become.",
+    description: "Own them in-game to play/win or trade them for $SLOG! The more they play, The more valuable they become.",
     image: GameFlowStep3,
   },
   {
