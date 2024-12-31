@@ -25,13 +25,13 @@ const Socials = () => {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <motion.h2 className="text-6xl font-extrabold text-black mb-4" variants={{
+        <motion.h2 className="text-5xl md:text-6xl font-extrabold text-black mb-4" variants={{
           hidden: { opacity: 0, y: 20 },
           visible: { opacity: 1, y: 0 }
         }}>
           SOCIALS
         </motion.h2>
-        <motion.p className="text-2xl font-medium text-black mb-12" variants={{
+        <motion.p className="text-xl md:text-2xl font-medium text-black mb-12" variants={{
           hidden: { opacity: 0, y: 20 },
           visible: { opacity: 1, y: 0 }
         }}>
@@ -53,7 +53,7 @@ const Socials = () => {
               href={social.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black text-yellow-400 w-16 h-16 rounded-lg flex items-center justify-center text-2xl cursor-pointer transition-transform hover:translate-y-[-5px]"
+              className="bg-black text-yellow-400 w-12 md:w-16 h-12 md:h-16 rounded-lg flex items-center justify-center text-2xl cursor-pointer transition-transform hover:translate-y-[-5px]"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 }

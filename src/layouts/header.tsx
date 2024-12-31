@@ -24,7 +24,8 @@ const Header = () => {
           <Image 
             src={LogoImage}
             alt="SLOG Logo"            
-            className="w-8 h-8"
+            width={32}
+            height={32}
           />
           <span className="mx-1 text-2xl font-extrabold">SLOG</span>
         </Link>

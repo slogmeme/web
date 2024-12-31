@@ -6,22 +6,22 @@ import { GameFlowStep1, GameFlowStep2, GameFlowStep3, GameFlowStep4 } from '@/as
 
 const sections = [
   {
-    title: "CHOOSE YOUR LEAGUE",
+    title: "1. CHOOSE YOUR LEAGUE",
     description: "Choose a league and manage for your home team. You'll get an opportunity for world domination later...",
     image: GameFlowStep1,
   },
   {
-    title: "TRAIN UP STARS",
+    title: "2. TRAIN UP STARS",
     description: "Start a new team to invite up to 11 brand new players to train with you and win quickly.",
     image: GameFlowStep2,
   },
   {
-    title: "TRADE YOUR TEAM'S PLAYERS",
+    title: "3. TRADE YOUR TEAM'S PLAYERS",
     description: "Own them in-game to play/win or trade them for $SLOG! The more they play, The more valuable they become.",
     image: GameFlowStep3,
   },
   {
-    title: "PLAY & WIN",
+    title: "4. PLAY & WIN",
     description: "Climb the leaderboards, when you win matches, score points, and earn special badges.",
     image: GameFlowStep4,
   }
@@ -59,6 +59,7 @@ const GameFlow = () => {
 
   return (
     <section 
+      id="game-flow"
       ref={containerRef}
       className="bg-[#F2C230] min-h-screen py-20 px-4 overflow-hidden relative"
     >
@@ -101,7 +102,6 @@ const GameFlow = () => {
                     alt={section.title}
                     layout="fill"
                     objectFit="contain"
-                    className="rounded-xl border-4 border-black"
                   />
                 </motion.div>
               </div>

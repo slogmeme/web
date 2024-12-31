@@ -45,21 +45,21 @@ const HowToStart = () => {
             Follow these easy steps to buy SLOG and own part of the growing SLOG universe.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6 px-4 md:px-0">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6 px-4 md:px-0">
           <div className="flex flex-col justify-center gap-6 flex-1">
             {steps.slice(0, 3).map((step) => (
-              <div key={step.number} className="bg-[#117C41] border-[3px] border-black p-6 flex flex-col items-center h-48 box-border">
-                <h3 className="text-2xl font-bold text-black mb-4">
+              <div key={step.number} className="bg-[#117C41] border-[3px] border-black p-3 md:p-6 flex flex-col items-start h-auto md:h-48 box-border">
+                <h3 className="text-[24px] leading-[24px] font-bold text-black mb-4">
                   <span className="text-[#F2C230] mr-2">{step.number}.</span> {step.title}
                 </h3>
                 <p className="text-[20px] font-light text-black">{step.content}</p>
               </div>
             ))}
           </div>
-          <div className="flex flex-col justify-center gap-6 flex-1">
+          <div className="flex flex-col justify-center gap-4 md:gap-6 flex-1">
             {steps.slice(3).map((step) => (
-              <div key={step.number} className="bg-[#117C41] border-[3px] border-black p-6 flex flex-col items-center h-48 box-border">
-                <h3 className="text-2xl font-bold text-black mb-4">
+              <div key={step.number} className="bg-[#117C41] border-[3px] border-black p-6 flex flex-col items-start h-auto md:h-48 box-border">
+                <h3 className="text-[24px] leading-[24px] font-bold text-black mb-4">
                   <span className="text-[#F2C230] mr-2">{step.number}.</span> {step.title}
                 </h3>
                 <p className="text-lg font-light text-black">{step.content}</p>

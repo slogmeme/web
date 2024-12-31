@@ -5,7 +5,7 @@ import { CricketPlayer, HeroBackground } from '@/assets';
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col items-center min-h-screen overflow-hidden">
+    <div className="relative flex flex-col items-center min-h-screen overflow-hidden h-screen">
       <Image
         src={HeroBackground}
         alt="Sky Background"
@@ -22,8 +22,8 @@ const Hero = () => {
         }}
       />
       <div className="relative flex flex-col w-full h-full pt-16">
-        <div className="flex flex-col text-right items-center w-full max-w-full px-5 md:hidden">
-         <div className="flex flex-col gap-4 w-full">
+        <div className="flex flex-col text-right items-center w-full max-w-full px-5 md:hidden relative h-full">
+         <div className="flex flex-col gap-4 w-full text-black">
          <h1 className="text-5xl font-medium leading-tight mb-2">
             <span>The <strong>SKY&apos;S</strong></span><br />
             <span>The <strong>LIMIT</strong></span>
@@ -41,7 +41,7 @@ const Hero = () => {
               priority
             />
           </div>
-          <div className="flex flex-col gap-4 w-full max-w-[300px]">
+          <div className="flex flex-col gap-4 w-full max-w-[300px] absolute bottom-4 md:relative">
             <a href="https://github.com" 
               className="bg-[url('/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-2xl font-bold shadow-md w-full text-center">
               GITHUB

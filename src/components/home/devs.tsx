@@ -41,7 +41,7 @@ const Devs = () => {
           </div>
 
           {/* CTA Button */}
-          <button className="mt-9 bg-transparent text-black border-4 border-black py-3 px-6 text-2xl font-extrabold hover:bg-black hover:bg-opacity-10">
+          <button className="mt-9 bg-transparent text-black border-4 border-black py-5 px-16 w-full text-2xl font-extrabold hover:bg-black hover:bg-opacity-10">
             READ DOCS
           </button>
         </div>
@@ -60,7 +60,7 @@ const Devs = () => {
               />
             </div>
             <h2 className="text-8xl font-bold text-black mb-52">FROM<br />THE<br />DEVS</h2>
-            <button className="bg-transparent text-black border-[3px] border-black py-3 px-6 text-[32px] font-extrabold cursor-pointer hover:bg-black hover:bg-opacity-10">
+            <button className="bg-transparent text-black border-[3px] border-black py-5 px-16 w-full text-[32px] font-extrabold cursor-pointer hover:bg-black hover:bg-opacity-10">
               READ DOCS
             </button>
           </div>

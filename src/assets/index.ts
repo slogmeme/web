@@ -9,7 +9,7 @@ export const GameFlowStep3 = '/images/gameflow/step4.png';
 export const GameFlowStep4 = '/images/gameflow/step3.png';
 
 // Tokenomics Section
-export const TeamImage = '/images/tokenomics/team.png';
+export const TeamImage = '/images/tokenomics/team.jpeg';
 
 // Common Assets
 export const Logo = '/images/common/logo-slog.png';

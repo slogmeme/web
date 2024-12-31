@@ -23,7 +23,7 @@ const Home: React.FC = () => {
       <Earn></Earn>
       <CTA />
       <Tokenomics></Tokenomics>
-      <TwoImages></TwoImages>
+      {/* <TwoImages></TwoImages> */}
       <Socials></Socials>
     </Layout>
   );
