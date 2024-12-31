@@ -7,7 +7,6 @@ import Devs from "@/components/home/devs";
 import GameFlow from "@/components/home/gameflow";
 import HowToStart from "@/components/home/how2start";
 import Tokenomics from "@/components/home/tokenomics";
-import TwoImages from "@/components/home/2images";
 import Socials from "@/components/home/socials";
 import Earn from "@/components/home/earn";
 import CTA from '@/components/home/apein';
@@ -23,7 +22,6 @@ const Home: React.FC = () => {
       <Earn></Earn>
       <CTA />
       <Tokenomics></Tokenomics>
-      {/* <TwoImages></TwoImages> */}
       <Socials></Socials>
     </Layout>
   );
