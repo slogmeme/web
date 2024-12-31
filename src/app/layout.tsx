@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from 'next/font/local';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,6 +12,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const goodSans = localFont({
+  src: '../assets/fonts/GoodSans-Regular.woff2',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: "SLOG",
@@ -25,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${goodSans.className} antialiased`}
       >
         {children}
       </body>
