@@ -18,8 +18,7 @@ const Tokenomics = () => {
               alt="SLOG Team"
               layout="responsive"
               width={500}
-              height={500}
-              className="w-3/4 h-auto"
+              height={500}              
             />
           </div>
         </div>

@@ -41,7 +41,7 @@ const Hero = () => {
               GITHUB
             </a>
             <a href="#play"
-              className="bg-[#117C41] text-black border-4 border-black py-3 px-6 text-2xl font-bold shadow-md w-full text-center">
+              className="bg-[#117C41] text-black border-4 border-black py-3 px-2 text-2xl font-bold shadow-md w-full text-center">
               PLAY FREE & EARN
             </a>
           </div>
@@ -83,7 +83,7 @@ const Hero = () => {
             </div>
           </div>
           <div
-            className="absolute bottom-0 left-0 w-full h-1/2 md:h-[128px] z-[-1]"
+            className="absolute bottom-0 left-0 w-full h-1/2 md:h-[290px] z-[-1]"
             style={{
               background: 'linear-gradient(323.47deg, #6BC341 23.09%, #2C9330 82.92%)'
             }}

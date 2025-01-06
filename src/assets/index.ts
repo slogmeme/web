@@ -23,3 +23,6 @@ export const CricketCharacter = '/images/characters/cricket-character.png';
 export const CricketCharacterTr = '/images/characters/cricket-character-tr.png';
 export const BlueHeart = '/images/earn/blueheart.png';
 export const GreenHeart = '/images/devs/greenheart.png';
+export const Socialpic = '/images/socials/socials.png';
+export const FooterMobile = '/images/footer/footer-mobile.png';
+export const FooterImage = '/images/footer/footer.png';
