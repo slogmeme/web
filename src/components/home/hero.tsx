@@ -68,7 +68,7 @@ const Hero = () => {
               <span>The <strong>SKY&apos;S</strong></span><br />
               <span>The <strong>LIMIT</strong></span>
             </h1>
-            <p className="text-3xl xl:text-5xl font-semibold mb-8">
+            <p className="text-3xl xl:text-5xl font-semibold mb-40">
               Win like never before when you <strong>keep what you earn.</strong>
             </p>
             <div className="flex flex-col gap-4 items-end w-full">
