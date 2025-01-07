@@ -47,25 +47,26 @@ const Footer = () => {
             <span className="text-black text-xl font-bold">SLOG</span>
           </div>
         </div>
-
         <div className="absolute bottom-0 right-0">
-          <div className="w-full h-[300px] md:hidden relative">
+          <div className="relative h-full w-full">
             <Image
               src={FooterMobile}
               alt="Cricket Player Animation"
-              fill
-              className="object-contain object-center"
+              width={221}
+              height={300}
+              className="object-contain object-center block md:hidden"
               priority
             />
           </div>
 
-          <div className="hidden md:block relative h-full w-full">
+          <div className="relative h-full w-full">
             <Image
               src={FooterImage}
               alt="Phone Display"
               priority
               width={477}
               height={533.5}
+              className="hidden md:block"
             />
           </div>
         </div>
