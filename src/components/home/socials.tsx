@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
-import { FaTelegram, FaTiktok, FaFacebook, FaTwitch } from 'react-icons/fa';
+import { FaTelegram, FaFacebook, FaTwitch } from 'react-icons/fa';
 import { SiX } from 'react-icons/si';
 import { BsInstagram } from 'react-icons/bs';
 import Image from "next/image";
