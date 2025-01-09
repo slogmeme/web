@@ -20,7 +20,7 @@ const Earn = () => {
           <p className="text-xl md:text-[32px] font-medium text-black mb-4 md:mb-8">
             Earn <span className="font-bold">SLOG</span> when you <span className="font-bold">Play</span> and complete <span className="font-bold">Quests</span>.
           </p>
-          <a href="#rewards" className="inline-block bg-transparent text-black border-[3px] border-black py-5 px-16 text-2xl md:text-[32px] font-bold text-center transition-transform hover:translate-y-[-3px] w-full max-w-[572px]">
+          <a href="https://dexscreener.com/solana/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump" className="inline-block bg-transparent text-black border-[3px] border-black py-5 px-16 text-2xl md:text-[32px] font-bold text-center transition-transform hover:translate-y-[-3px] w-full max-w-[572px]">
             GET REWARDS
           </a>
         </div>

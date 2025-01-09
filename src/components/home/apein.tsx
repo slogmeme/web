@@ -27,7 +27,7 @@ const CTA = () => {
                         READY TO GET<br />BOWLED OVER?
                     </h2>
                     <a
-                        href="#join"
+                        href="https://dexscreener.com/solana/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
                         className="mt-24 md:mt-0 inline-block bg-[#117C41] w-full text-black border-4 border-black py-4 px-8 text-[24px] md:text-[32px] font-bold text-center transition-transform hover:translate-y-[-3px]"
                     >
                         CLICK TO APE IN

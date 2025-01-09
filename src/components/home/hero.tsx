@@ -36,7 +36,7 @@ const Hero = () => {
             />
           </div>
           <div className="flex flex-col gap-4 w-full max-w-[300px] absolute bottom-4 md:relative">
-            <a href="https://github.com"
+            <a href="https://github.com/slogmeme"
               className="bg-[url('/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-2xl font-bold shadow-md w-full text-center">
               GITHUB
             </a>
@@ -72,7 +72,7 @@ const Hero = () => {
               Win like never before when you <strong>keep what you earn.</strong>
             </p>
             <div className="flex flex-col gap-4 items-end w-full">
-              <a href="https://github.com"
+              <a href="https://github.com/slogmeme"
                 className="bg-[url('/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-[32px] font-bold shadow-md text-center w-full">
                 GITHUB
               </a>
