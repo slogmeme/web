@@ -1,8 +1,8 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
-import { FaTelegram, FaTwitter, FaTiktok } from 'react-icons/fa';
-import { SiMedium } from 'react-icons/si';
+import { FaTelegram, FaTiktok, FaFacebook } from 'react-icons/fa';
+import { SiX } from 'react-icons/si';
 import { BsInstagram } from 'react-icons/bs';
 import Image from "next/image";
 import { Socialpic } from '@/assets'
@@ -56,11 +56,11 @@ const Socials = () => {
               visible: { opacity: 1 }
             }}>
               {[
-                { url: "https://t.me/cricketdao", icon: <FaTelegram /> },
-                { url: "https://twitter.com/cricket_dao", icon: <FaTwitter /> },
-                { url: "https://medium.com/@cricketdao", icon: <SiMedium /> },
+                { url: "t.me/SLOGMEME", icon: <FaTelegram /> },
+                { url: "https://instagram.com/slogmeme", icon: <BsInstagram /> },
+                { url: "https://facebook.com/slogmeme", icon: <FaFacebook /> },
+                { url: "https://x.com/slogmeme", icon: <SiX /> },
                 { url: "https://www.tiktok.com/@cricketdao", icon: <FaTiktok /> },
-                { url: "https://instagram.com/cricket.dao", icon: <BsInstagram /> }
               ].map((social: { url: string; icon: React.ReactNode }, index: number) => (
                 <motion.a
                   key={index}
