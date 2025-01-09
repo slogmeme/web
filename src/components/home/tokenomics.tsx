@@ -9,7 +9,7 @@ const Tokenomics = () => {
       <div className="max-w-[1400px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center px-4 md:px-0">
         <div className="block md:hidden text-center mt-6">
           <h2 className="text-5xl font-extrabold text-black mb-12">TOKENOMICS</h2>
-          <p className=" text-[18px] leading-[24px] text-black">Fair Launch. No Pre-Mine. No team allocation. 6 billion total SIXR can ever exist, with half available on Solana and the other half available through gameplay on TON.</p>
+          <p className=" text-[18px] leading-[24px] text-black">Fair Launch. No Pre-Mine. No team allocation. 2 billion total SLOG can ever exist, with half available on Solana and the other half available through gameplay on TON.</p>
         </div>
         <div>
           <div className="border-4 border-black overflow-hidden mb-6">

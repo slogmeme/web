@@ -19,28 +19,17 @@ const Exchange = () => {
           {/* Exchange Buttons */}
           <div className="flex flex-col gap-4 mb-8">
             <a
-              href="https://pump.fun/coin/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
+              href="https://dexscreener.com/solana/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
               className="bg-[#117C41] text-black py-4 text-base font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               RAYDIUM
             </a>
             <a
-              href="https://pump.fun/coin/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
+              href="https://lux.exchange"
               className="bg-[#117C41] text-black py-4 text-base font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               LX
             </a>
-          </div>
-
-          {/* Bridge Frame */}
-          <div className="w-full bg-black rounded-lg overflow-hidden mb-8">
-            <iframe
-              src="https://bridge.lux.network/"
-              title="Lux Bridge"
-              className="w-full min-h-[400px]"
-              allow="clipboard-write"
-              style={{ borderRadius: '12px' }}
-            />
           </div>
 
           {/* Mobile Footer Text */}
