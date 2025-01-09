@@ -56,7 +56,7 @@ const Socials = () => {
               visible: { opacity: 1 }
             }}>
               {[
-                { url: "t.me/SLOGMEME", icon: <FaTelegram /> },
+                { url: "https://t.me/SLOGMEME", icon: <FaTelegram /> },
                 { url: "https://instagram.com/slogmeme", icon: <BsInstagram /> },
                 { url: "https://facebook.com/slogmeme", icon: <FaFacebook /> },
                 { url: "https://x.com/slogmeme", icon: <SiX /> },
