@@ -18,7 +18,7 @@ const Tokenomics = () => {
               alt="SLOG Team"
               layout="responsive"
               width={500}
-              height={500}              
+              height={500}
             />
           </div>
         </div>
@@ -26,13 +26,13 @@ const Tokenomics = () => {
           <h2 className="text-5xl font-extrabold text-black mb-12 hidden md:block">TOKENOMICS</h2>
           <div className="border-[3px] border-black p-5 bg-transparent">
             <h3 className="text-2xl font-extrabold text-black mb-2">TOTAL SUPPLY</h3>
-            <p className="text-lg font-extrabold text-black break-all">6,000,000,000 SLOG</p>
+            <p className="text-lg font-extrabold text-black break-all">1,000,000,000 SLOG</p>
           </div>
           <div className="border-[3px] border-black p-5 bg-transparent">
             <h3 className="text-2xl font-extrabold text-black mb-2">TOKEN ADDRESS</h3>
-            <p className="text-lg font-extrabold text-black break-all">0x40e65cf175a996186f5d89284280604EbBA9E35F</p>
+            <p className="text-lg font-extrabold text-black break-all">9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump</p>
           </div>
-          <a href="#buy" className="bg-[#117C41] text-black border-[3px] border-black py-5 text-2xl font-extrabold text-center transition-opacity hover:opacity-90">
+          <a href="https://pump.fun/coin/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump" className="bg-[#117C41] text-black border-[3px] border-black py-5 text-2xl font-extrabold text-center transition-opacity hover:opacity-90">
             BUY SLOG HERE
           </a>
         </div>
