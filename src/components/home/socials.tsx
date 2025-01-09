@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
-import { FaTelegram, FaTiktok, FaFacebook } from 'react-icons/fa';
+import { FaTelegram, FaTiktok, FaFacebook, FaTwitch } from 'react-icons/fa';
 import { SiX } from 'react-icons/si';
 import { BsInstagram } from 'react-icons/bs';
 import Image from "next/image";
@@ -60,7 +60,7 @@ const Socials = () => {
                 { url: "https://instagram.com/slogmeme", icon: <BsInstagram /> },
                 { url: "https://facebook.com/slogmeme", icon: <FaFacebook /> },
                 { url: "https://x.com/slogmeme", icon: <SiX /> },
-                { url: "https://www.tiktok.com/@cricketdao", icon: <FaTiktok /> },
+                { url: "https://www.twitch.tv/slogmeme", icon: <FaTwitch /> },
               ].map((social: { url: string; icon: React.ReactNode }, index: number) => (
                 <motion.a
                   key={index}
