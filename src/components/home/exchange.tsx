@@ -45,36 +45,29 @@ const Exchange = () => {
           {/* Left Column */}
           <div className="flex flex-col gap-4">
             <a
-              href="#raydium"
+              href="https://www.geckoterminal.com/solana/pools/HbndPTptXEzgtYnZ6VHU4TUqnkXhb7iCrAPL6sDFNPd3"
               className="bg-[#117C41] text-black py-4 text-[40px] font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               RAYDIUM
             </a>
             <a
-              href="#lx"
+              href="https://www.geckoterminal.com/solana/pools/HbndPTptXEzgtYnZ6VHU4TUqnkXhb7iCrAPL6sDFNPd3"
               className="bg-[#117C41] text-black py-4 text-[40px] font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               LX
             </a>
             {/* Desktop Footer Text */}
+          </div>
+
+          {/* Right Column */}
+          <div className="bg-black rounded-lg overflow-hidden">
+
             <h3 className="text-[32px] font-bold text-left mt-16 leading-tight">
               + MORE<br />
               EXCHANGE<br />
               LISTINGS ARE ON<br />
               THE WAY ; )
             </h3>
-          </div>
-
-          {/* Right Column */}
-          <div className="bg-black rounded-lg overflow-hidden">
-            <iframe
-              src="https://bridge.lux.network/"
-              title="Lux Bridge"
-              className="w-full h-full min-h-[500px]"
-              frameBorder="0"
-              allow="clipboard-write"
-              style={{ borderRadius: '12px' }}
-            />
           </div>
         </div>
       </div>
