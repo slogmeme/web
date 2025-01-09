@@ -60,7 +60,7 @@ const Exchange = () => {
           </div>
 
           {/* Right Column */}
-          <div className="bg-black rounded-lg overflow-hidden">
+          <div className="bg-transparent rounded-lg overflow-hidden">
 
             <h3 className="text-[32px] font-bold text-left mt-16 leading-tight">
               + MORE<br />
