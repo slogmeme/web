@@ -18,14 +18,14 @@ const Exchange = () => {
         <div className="md:hidden flex flex-col">
           {/* Exchange Buttons */}
           <div className="flex flex-col gap-4 mb-8">
-            <a 
-              href="#raydium" 
+            <a
+              href="https://pump.fun/coin/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
               className="bg-[#117C41] text-black py-4 text-base font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               RAYDIUM
             </a>
-            <a 
-              href="#lx" 
+            <a
+              href="https://pump.fun/coin/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
               className="bg-[#117C41] text-black py-4 text-base font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               LX
@@ -55,14 +55,14 @@ const Exchange = () => {
         <div className="hidden md:grid md:grid-cols-2 md:gap-8">
           {/* Left Column */}
           <div className="flex flex-col gap-4">
-            <a 
-              href="#raydium" 
+            <a
+              href="#raydium"
               className="bg-[#117C41] text-black py-4 text-[40px] font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               RAYDIUM
             </a>
-            <a 
-              href="#lx" 
+            <a
+              href="#lx"
               className="bg-[#117C41] text-black py-4 text-[40px] font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               LX
