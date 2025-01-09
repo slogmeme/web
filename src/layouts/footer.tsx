@@ -25,7 +25,7 @@ const Footer = () => {
             Guides / FAQ
           </Link>
           <Link
-            href="/github"
+            href="https://github.com/slogmeme/"
             className="text-black text-xl md:text-2xl font-medium underline underline-offset-4 hover:translate-x-[-5px] transition-transform"
           >
             Github
