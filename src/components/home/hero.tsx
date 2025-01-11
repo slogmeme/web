@@ -19,11 +19,11 @@ const Hero = () => {
         <div className="flex flex-col text-right items-center w-full max-w-full px-5 md:hidden relative h-full">
           <div className="flex flex-col gap-4 w-full text-black z-2">
             <h1 className="text-5xl font-medium leading-tight mb-2">
-              <span>The <strong>SKY&apos;S</strong></span><br />
-              <span>The <strong>LIMIT</strong></span>
+              <span>FINALLY, <strong>CRICKET</strong></span><br />
+              <span>ON THE <strong>CHAIN</strong>.</span>
             </h1>
             <p className="text-lg font-semibold mb-2">
-              Win like never before<br />and <strong>earn while you play.</strong>
+              AI and Blockchain collide in the most advanced cricket simulation <strong>ever created</strong>.
             </p>
           </div>
           <div className="w-full aspect-square max-w-[90%] mb-8 absolute bottom-[100px]">
@@ -36,13 +36,13 @@ const Hero = () => {
             />
           </div>
           <div className="flex flex-col gap-4 w-full max-w-[300px] absolute bottom-4 md:relative">
-            <a href="https://github.com/slogmeme"
+            <a href="https://www.birdeye.so/token/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump?chain=solana"
               className="bg-[url('/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-2xl font-bold shadow-md w-full text-center">
-              GITHUB
+              TRADE ON SOLANA
             </a>
-            <a href="#play"
+            <a href="https://slog.game"
               className="bg-[#117C41] text-black border-4 border-black py-3 px-2 text-2xl font-bold shadow-md w-full text-center">
-              PLAY FREE & EARN
+              PLAY ON TELEGRAM
             </a>
           </div>
           <div
@@ -65,20 +65,20 @@ const Hero = () => {
           </div>
           <div className="flex flex-col justify-center items-end text-black z-10 p-10 mb-12">
             <h1 className="text-6xl xl:text-8xl font-medium leading-tight">
-              <span>The <strong>SKY&apos;S</strong></span><br />
-              <span>The <strong>LIMIT</strong></span>
+              <span>FINALLY, <strong>CRICKET</strong></span><br />
+              <span>ON THE <strong>CHAIN</strong>.</span>
             </h1>
             <p className="text-3xl xl:text-5xl font-semibold mb-40">
-              Win like never before when you <strong>keep what you earn.</strong>
+              AI and Blockchain collide in the most advanced cricket simulation <strong>ever created</strong>.
             </p>
             <div className="flex flex-col gap-4 items-end w-full">
-              <a href="https://github.com/slogmeme"
+              <a href="https://www.birdeye.so/token/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump?chain=solana"
                 className="bg-[url('/images/hero/background.png')] text-black border-4 border-black py-3 px-6 text-[32px] font-bold shadow-md text-center w-full">
-                GITHUB
+                TRADE ON SOLANA
               </a>
-              <a href="#play"
+              <a href="https://slog.game"
                 className="bg-[#117C41] text-black border-4 border-black py-3 px-6 text-[32px] font-bold shadow-md w-full text-center">
-                PLAY FREE & EARN
+                PLAY ON TELEGRAM
               </a>
             </div>
           </div>
