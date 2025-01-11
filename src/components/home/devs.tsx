@@ -42,7 +42,9 @@ const Devs = () => {
 
           {/* CTA Button */}
           <button className="mt-9 bg-transparent text-black border-4 border-black py-5 px-16 w-full text-2xl font-extrabold hover:bg-black hover:bg-opacity-10">
+            <a href="https://github.com/slogmeme">
             READ DOCS
+            </a>
           </button>
         </div>
       </div>
