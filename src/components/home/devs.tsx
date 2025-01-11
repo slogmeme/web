@@ -63,7 +63,9 @@ const Devs = () => {
             </div>
             <h2 className="text-8xl font-bold text-black mb-52">FROM<br />THE<br />DEVS</h2>
             <button className="bg-transparent text-black border-[3px] border-black py-5 px-16 w-full text-[32px] font-extrabold cursor-pointer hover:bg-black hover:bg-opacity-10">
-              READ DOCS
+              <a href="https://github.com/slogmeme">
+                READ DOCS
+              </a>
             </button>
           </div>
           <div className="flex flex-col gap-8 justify-normal">
