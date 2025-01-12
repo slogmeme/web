@@ -1,20 +1,21 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import { CricketPlayer, HeroBackground } from '@/assets';
+import { CricketPlayer } from '@/assets';
 
 const Hero = () => {
   return (
     <div className="relative flex flex-col items-center min-h-screen overflow-hidden h-screen">
-      <Image
-        src={HeroBackground}
-        alt="Sky Background"
-        layout="fill"
-        objectFit="cover"
-        className="z-[-2]"
-        priority
-        quality={100}
-      />
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-[-2]"
+      >
+        <source src={'/videos/sky-background.mp4'} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="relative flex flex-col w-full h-full pt-16">
         <div className="flex flex-col text-right items-center w-full max-w-full px-5 md:hidden relative h-full">
           <div className="flex flex-col gap-4 w-full text-black z-2">

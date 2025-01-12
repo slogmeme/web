@@ -26,3 +26,4 @@ export const GreenHeart = '/images/devs/greenheart.png';
 export const Socialpic = '/images/socials/socials.png';
 export const FooterMobile = '/images/footer/footer-mobile.png';
 export const FooterImage = '/images/footer/footer.png';
+export const HeroVideo = '/videos/sky-background.mp4';
