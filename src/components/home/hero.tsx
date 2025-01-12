@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative flex flex-col w-full h-full pt-16">
         <div className="flex flex-col text-right items-center w-full max-w-full px-5 md:hidden relative h-full">
           <div className="flex flex-col gap-4 w-full text-black z-2">
-            <h1 className="text-5xl sm:text-4xl font-medium leading-tight mb-2">
+            <h1 className="text-4xl sm:text-5xl font-medium leading-tight mb-2">
               <span>FINALLY, <strong>CRICKET</strong></span><br />
               <span>ON THE <strong>CHAIN</strong>.</span>
             </h1>
@@ -26,7 +26,7 @@ const Hero = () => {
               AI and Blockchain collide in the most advanced cricket simulation <strong>ever created</strong>.
             </p>
           </div>
-          <div className="w-full aspect-square max-w-[90%] mb-8 absolute bottom-[100px]">
+          <div className="w-full aspect-square max-w-[90%] mb-0 absolute bottom-[100px]">
             <Image
               src={CricketPlayer}
               alt="Cricket Player"
