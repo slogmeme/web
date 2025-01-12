@@ -50,7 +50,7 @@ const Header = () => {
           </Link>
           <div className="hidden md:flex gap-8 items-center">
             <a href="#game-flow" className="text-black font-bold transition-opacity hover:opacity-80">GAME FLOW</a>
-            <a href="#air-drop" onClick={handleDeckClick} className="text-black font-bold transition-opacity hover:opacity-80">DECK</a>
+            <a href="#" onClick={handleDeckClick} className="text-black font-bold transition-opacity hover:opacity-80">DECK</a>
             <a href="#tokenomics" className="text-black font-bold transition-opacity hover:opacity-80">TOKENOMICS</a>
             <a href="#whitepaper" className="text-black font-bold transition-opacity hover:opacity-80">WHITEPAPER</a>
             <button className="text-black border-4 border-black py-2 px-4 font-extrabold transition-transform hover:scale-105"><a href="https://www.birdeye.so/token/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump?chain=solana">BUY NOW</a></button>

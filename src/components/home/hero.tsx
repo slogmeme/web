@@ -18,11 +18,11 @@ const Hero = () => {
       <div className="relative flex flex-col w-full h-full pt-16">
         <div className="flex flex-col text-right items-center w-full max-w-full px-5 md:hidden relative h-full">
           <div className="flex flex-col gap-4 w-full text-black z-2">
-            <h1 className="text-5xl font-medium leading-tight mb-2">
+            <h1 className="text-5xl sm:text-4xl font-medium leading-tight mb-2">
               <span>FINALLY, <strong>CRICKET</strong></span><br />
               <span>ON THE <strong>CHAIN</strong>.</span>
             </h1>
-            <p className="text-lg font-semibold mb-2">
+            <p className="text-lg sm:text-base font-semibold mb-2">
               AI and Blockchain collide in the most advanced cricket simulation <strong>ever created</strong>.
             </p>
           </div>
@@ -64,11 +64,11 @@ const Hero = () => {
             />
           </div>
           <div className="flex flex-col justify-center items-end text-black z-10 p-10 mb-12">
-            <h1 className="text-6xl xl:text-8xl font-medium leading-tight">
+            <h1 className="text-6xl sm:text-5xl xl:text-8xl font-medium leading-tight">
               <span>FINALLY, <strong>CRICKET</strong></span><br />
               <span>ON THE <strong>CHAIN</strong>.</span>
             </h1>
-            <p className="text-3xl xl:text-5xl font-semibold mb-40">
+            <p className="text-3xl sm:text-2xl xl:text-5xl font-semibold mb-40">
               AI and Blockchain collide in the most advanced cricket simulation <strong>ever created</strong>.
             </p>
             <div className="flex flex-col gap-4 items-end w-full">
