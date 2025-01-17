@@ -19,13 +19,13 @@ const Exchange = () => {
           {/* Exchange Buttons */}
           <div className="flex flex-col gap-4 mb-8">
             <a
-              href="https://dexscreener.com/solana/9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
+              href="https://raydium.io/swap/?inputMint=sol&outputMint=9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
               className="bg-[#117C41] text-4xl text-black p-4 font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               RAYDIUM
             </a>
             <a
-              href="https://lux.exchange"
+              href="https://lux.exchange/#/explore/tokens/zoo/0xed15c23b27a69b5bd50b1eef5b8f1c8d849462b7"
               className="bg-[#117C41] text-black p-4 text-4xl font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               LX
@@ -45,13 +45,13 @@ const Exchange = () => {
           {/* Left Column */}
           <div className="flex flex-col gap-4 items-center">
             <a
-              href="https://www.geckoterminal.com/solana/pools/HbndPTptXEzgtYnZ6VHU4TUqnkXhb7iCrAPL6sDFNPd3"
+              href="https://raydium.io/swap/?inputMint=sol&outputMint=9Xfko1cNUJ6cpgBxkdH7k7VyYouUmCtUij5tDWUFpump"
               className="bg-[#117C41] text-black w-[350px] py-4 text-[40px] font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               RAYDIUM
             </a>
             <a
-              href="https://www.geckoterminal.com/solana/pools/HbndPTptXEzgtYnZ6VHU4TUqnkXhb7iCrAPL6sDFNPd3"
+              href="https://lux.exchange/#/explore/tokens/zoo/0xed15c23b27a69b5bd50b1eef5b8f1c8d849462b7"
               className="bg-[#117C41] text-black w-[350px] py-4 text-[40px] font-extrabold border-4 border-black text-center shadow-md transition-transform hover:translate-y-[-2px]"
             >
               LX
